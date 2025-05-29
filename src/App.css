@@ -1,0 +1,16 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.trash {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.trash-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
