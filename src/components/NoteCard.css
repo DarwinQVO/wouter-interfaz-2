@@ -1,0 +1,31 @@
+.note-card {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  width: 200px;
+  background: #fff;
+  cursor: grab;
+}
+
+.note-card-header {
+  user-select: none;
+}
+
+.summary {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.note-card-body {
+  margin-top: 0.5rem;
+}
+
+.note-card-body input,
+.note-card-body textarea {
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.5rem;
+}
